@@ -1,5 +1,6 @@
 q=[]
 size = 8
+# If the the queue is not full an element is added
 def enQueue():
     if len(q)==size:
         print("Queue is Full!")
@@ -8,7 +9,7 @@ def enQueue():
         q.append(element)
         print(element,"is added to the Queue!")
 
-#       
+# If the queue is not empty element id removed      
 def deQueue():
     if not q:
         print("Queue is Empty!")
@@ -37,3 +38,4 @@ enQueue()
 deQueue()
 deQueue()
 deQueue()
+
